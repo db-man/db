@@ -1,0 +1,6 @@
+[{
+  "name": "users",
+  "columns": [
+    {"id": "userId", "name": "User ID"}
+  ]
+}]
