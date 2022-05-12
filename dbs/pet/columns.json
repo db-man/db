@@ -2,6 +2,6 @@
   "name": "dogs",
   "columns": [
     {"id": "name", "name": "Name", "type": "STRING", "primary": true},
-    {"id": "color", "name": "Color", "enum": ["white", "black"]}
+    {"id": "color", "name": "Color", "enum": ["white", "black"], "type:createUpdatePage": "RadioGroup"}
   ]
 }]
