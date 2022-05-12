@@ -1,6 +1,7 @@
 [{
   "name": "users",
   "columns": [
-    {"id": "userId", "name": "User ID", "primary": true}
+    {"id": "userId", "name": "User ID", "primary": true},
+    {"id": "name", "name": "Name"}
   ]
 }]
