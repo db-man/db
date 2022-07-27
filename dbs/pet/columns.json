@@ -1,7 +1,7 @@
 [{
   "name": "dogs",
   "columns": [
-    {"id": "name", "name": "Name", "type": "STRING", "primary": true},
+    {"id": "name", "name": "Name", "type": "STRING", "primary": true, "placeholder": "Please fill name"},
     {"id": "color", "name": "Color", "enum": ["white", "black"], "type:createUpdatePage": "RadioGroup"}
   ]
 }]
