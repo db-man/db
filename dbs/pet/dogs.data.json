@@ -2,8 +2,9 @@
  {
   "name": "foo",
   "createdAt": "2022-05-12 22:45:42",
-  "updatedAt": "2022-05-12 23:25:29",
-  "color": "white"
+  "updatedAt": "2022-09-29 00:28:47",
+  "color": "white",
+  "age": 1
  },
  {
   "color": "white",
