@@ -1,8 +1,16 @@
-[{
-  "name": "dogs",
-  "columns": [
-    {"id": "name", "name": "Name", "type": "STRING", "primary": true, "placeholder": "Please fill name"},
-    {"id": "age", "name": "Age", "type": "NUMBER"},
-    {"id": "color", "name": "Color", "enum": ["white", "black"], "type:createUpdatePage": "RadioGroup"}
-  ]
-}]
+[
+  {
+    "name": "dogs",
+    "columns": [
+      { "id": "name", "name": "Name", "type": "STRING", "primary": true, "placeholder": "Please fill name" },
+      { "id": "age", "name": "Age", "type": "NUMBER" },
+      { "id": "color", "name": "Color", "enum": ["white", "black"], "type:createUpdatePage": "RadioGroup" },
+      {
+        "id": "photos",
+        "name": "Photos",
+        "type": "STRING_ARRAY",
+        "type:listPage": ["ImageLink", "{\"url\":\"{{record.photos[0]}}\",\"imgSrc\":\"record.photos[0]\"}"]
+      }
+    ]
+  }
+]
