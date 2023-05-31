@@ -82,7 +82,8 @@
   "name": "test",
   "age": 2,
   "createdAt": "2023-05-31 23:54:29",
-  "updatedAt": "2023-05-31 23:54:29"
+  "updatedAt": "2023-05-31 23:55:40",
+  "isAlive": true
  },
  {
   "color": "white",
