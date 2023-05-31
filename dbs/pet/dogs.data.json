@@ -88,8 +88,8 @@
  {
   "color": "white",
   "name": "test23",
-  "isAlive": true,
+  "isAlive": false,
   "createdAt": "2023-05-31 23:54:45",
-  "updatedAt": "2023-05-31 23:54:45"
+  "updatedAt": "2023-05-31 23:55:51"
  }
 ]
