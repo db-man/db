@@ -6,6 +6,12 @@
       { "id": "age", "name": "Age", "type": "NUMBER" },
       { "id": "color", "name": "Color", "enum": ["white", "black"], "type:createUpdatePage": "RadioGroup" },
       {
+        "id": "tags",
+        "name": "Tags",
+        "type": "STRING_ARRAY",
+        "quickOptions": ["spike", "cookie"]
+      },
+      {
         "id": "photos",
         "name": "Photos",
         "type": "STRING_ARRAY",
