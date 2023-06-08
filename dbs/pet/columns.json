@@ -9,7 +9,7 @@
         "id": "tags",
         "name": "Tags",
         "type": "STRING_ARRAY",
-        "quickOptions": ["spike", "cookie"]
+        "ui:presets": ["spike", "cookie"]
       },
       {
         "id": "photos",
