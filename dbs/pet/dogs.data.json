@@ -2,9 +2,9 @@
  {
   "name": "foo",
   "createdAt": "2022-05-12 22:45:42",
-  "updatedAt": "2023-05-21 20:37:56",
+  "updatedAt": "2023-06-08 23:54:29",
   "color": "white",
-  "age": 1,
+  "age": 2,
   "photos": [
    "https://docs.mapbox.com/mapbox-gl-js/assets/cat.png",
    "https://gd2.alicdn.com/imgextra/i4/3153444681/O1CN01zqhqIB1kRwmmIL7zi_!!3153444681.jpg",
