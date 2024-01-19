@@ -2,9 +2,9 @@
   {
     "name": "points",
     "columns": [
-      {"id": "id", "name": "ID", "primary": true},
-      {"id": "lat", "name": "Latitude"},
-      {"id": "lng", "name": "Longitude"}
+      { "id": "id", "name": "ID", "type": "NUMBER", "primary": true },
+      { "id": "lat", "name": "Latitude", "type": "NUMBER" },
+      { "id": "lng", "name": "Longitude", "type": "NUMBER" }
     ]
   }
 ]

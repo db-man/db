@@ -1,7 +1,9 @@
-[{
-  "name": "users",
-  "columns": [
-    {"id": "userId", "name": "User ID", "primary": true},
-    {"id": "name", "name": "Name"}
-  ]
-}]
+[
+  {
+    "name": "users",
+    "columns": [
+      { "id": "userId", "name": "User ID", "type": "NUMBER", "primary": true },
+      { "id": "name", "name": "Name", "type": "STRING" }
+    ]
+  }
+]
