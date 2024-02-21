@@ -14,7 +14,7 @@
         "id": "color",
         "name": "Color",
         "type": "STRING",
-        "enum": ["white", "black"],
+        "ui:createUpdatePage:enum": ["white", "black"],
         "type:createUpdatePage": "RadioGroup"
       },
       {
