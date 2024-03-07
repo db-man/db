@@ -7,7 +7,7 @@
         "name": "Name",
         "type": "STRING",
         "primary": true,
-        "placeholder": "Please fill name"
+        "ui:createUpdatePage:placeholder": "Please fill name"
       },
       { "id": "age", "name": "Age", "type": "NUMBER" },
       {
