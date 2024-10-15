@@ -1,10 +1,14 @@
-[
-  {
-    "name": "points",
-    "columns": [
-      { "id": "id", "name": "ID", "type": "NUMBER", "primary": true },
-      { "id": "lat", "name": "Latitude", "type": "NUMBER" },
-      { "id": "lng", "name": "Longitude", "type": "NUMBER" }
-    ]
-  }
-]
+{
+  "name": "map",
+  "description": "map database",
+  "tables": [
+    {
+      "name": "points",
+      "columns": [
+        { "id": "id", "name": "ID", "type": "NUMBER", "primary": true },
+        { "id": "lat", "name": "Latitude", "type": "NUMBER" },
+        { "id": "lng", "name": "Longitude", "type": "NUMBER" }
+      ]
+    }
+  ]
+}

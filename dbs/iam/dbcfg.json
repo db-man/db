@@ -1,9 +1,18 @@
-[
-  {
-    "name": "users",
-    "columns": [
-      { "id": "userId", "name": "User ID", "type": "NUMBER", "primary": true },
-      { "id": "name", "name": "Name", "type": "STRING" }
-    ]
-  }
-]
+{
+  "name": "iam",
+  "description": "iam database",
+  "tables": [
+    {
+      "name": "users",
+      "columns": [
+        {
+          "id": "userId",
+          "name": "User ID",
+          "type": "NUMBER",
+          "primary": true
+        },
+        { "id": "name", "name": "Name", "type": "STRING" }
+      ]
+    }
+  ]
+}

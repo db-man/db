@@ -1,43 +1,47 @@
-[
-  {
-    "name": "dogs",
-    "columns": [
-      {
-        "id": "name",
-        "name": "Name",
-        "type": "STRING",
-        "primary": true,
-        "ui:createUpdatePage:placeholder": "Please fill name"
-      },
-      { "id": "age", "name": "Age", "type": "NUMBER" },
-      {
-        "id": "color",
-        "name": "Color",
-        "type": "STRING",
-        "ui:createUpdatePage:enum": ["white", "black"],
-        "type:createUpdatePage": "RadioGroup"
-      },
-      {
-        "id": "tags",
-        "name": "Tags",
-        "type": "STRING_ARRAY",
-        "ui:presets": ["spike", "cookie"]
-      },
-      {
-        "id": "photos",
-        "name": "Photos",
-        "type": "STRING_ARRAY",
-        "type:createUpdatePage": ["MultiLineInputBox", "WithPreview"],
-        "type:listPage": [
-          "ImageLink",
-          "{\"url\":\"{{record.photos.[0]}}\",\"imgSrc\":\"{{record.photos.[0]}}\"}"
-        ],
-        "type:getPage": [
-          "ImageLink",
-          "{\"url\":\"{{record.photos.[0]}}\",\"imgSrc\":\"{{record.photos.[0]}}\"}"
-        ]
-      },
-      { "id": "isAlive", "name": "Alive", "type": "BOOL" }
-    ]
-  }
-]
+{
+  "name": "pet",
+  "description": "pet database",
+  "tables": [
+    {
+      "name": "dogs",
+      "columns": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "STRING",
+          "primary": true,
+          "ui:createUpdatePage:placeholder": "Please fill name"
+        },
+        { "id": "age", "name": "Age", "type": "NUMBER" },
+        {
+          "id": "color",
+          "name": "Color",
+          "type": "STRING",
+          "ui:createUpdatePage:enum": ["white", "black"],
+          "type:createUpdatePage": "RadioGroup"
+        },
+        {
+          "id": "tags",
+          "name": "Tags",
+          "type": "STRING_ARRAY",
+          "ui:presets": ["spike", "cookie"]
+        },
+        {
+          "id": "photos",
+          "name": "Photos",
+          "type": "STRING_ARRAY",
+          "type:createUpdatePage": ["MultiLineInputBox", "WithPreview"],
+          "type:listPage": [
+            "ImageLink",
+            "{\"url\":\"{{record.photos.[0]}}\",\"imgSrc\":\"{{record.photos.[0]}}\"}"
+          ],
+          "type:getPage": [
+            "ImageLink",
+            "{\"url\":\"{{record.photos.[0]}}\",\"imgSrc\":\"{{record.photos.[0]}}\"}"
+          ]
+        },
+        { "id": "isAlive", "name": "Alive", "type": "BOOL" }
+      ]
+    }
+  ]
+}
